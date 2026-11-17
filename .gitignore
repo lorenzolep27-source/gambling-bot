@@ -1,0 +1,10 @@
+# Track only .py files
+*
+!*/
+!*.py
+!.gitignore
+
+# ...but never anything inside these, even .py files
+venv/
+.venv/
+__pycache__/
